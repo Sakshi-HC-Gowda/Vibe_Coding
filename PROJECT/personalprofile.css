@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background: #3b6d94;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.student-profile {
+    padding: 20px;
+  }
+.profile-card {
+    background-color: #f3cfe9;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #2d3436;
+  }
+  
+  .course {
+    color: #4b7bec;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .about {
+    font-size: 0.95rem;
+    color: #636e72;
+    margin-bottom: 20px;
+  }
+
+  .info p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+  }
+  
+  .social {
+    margin-top: 20px;
+  }
+  
+  .social a {
+    text-decoration: none;
+    color: #4b7bec;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .social a:hover {
+    color: #892dda;
+  }
+  
